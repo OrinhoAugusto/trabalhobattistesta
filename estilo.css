@@ -1,0 +1,86 @@
+h1 {
+    background-color: rgba(255, 166, 0, 0.418);
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    color: rgb(255, 166, 0);
+}
+
+h3 {
+    background-color:  rgba(255, 166, 0, 0.418);
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(255, 166, 0);
+    margin-top: 0;
+    width: 490px;
+}
+
+.quadradoa {
+    border: 2px solid rgb(255, 179, 37);
+    border-radius: 25px;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quadradob {
+    border: 2px solid rgb(255, 179, 37);
+    border-radius: 25px;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quadradob div {
+    height: 290px;
+    width: 490px;
+    border: 2px solid rgb(255, 179, 37);
+    border-radius: 15px;
+    padding: 5px;
+    resize: none;
+}
+
+.quadradoa input {
+    width: 490px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(255, 179, 37);
+    border-radius: 5px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    width: 130px;
+    height: 35px;
+    margin: 20px 20px;
+    border: 2px solid rgb(255, 179, 37);
+    border-radius: 3px;
+    background-color:  rgba(255, 166, 0, 0.418);
+    color: rgb(192, 125, 0);
+}
+
+footer {
+    background-color: darkorange;
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+}
+
+#resb {
+    background-color:  rgba(255, 166, 0, 0.418);
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
