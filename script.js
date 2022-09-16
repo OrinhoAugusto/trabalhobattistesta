@@ -22,8 +22,16 @@ function calcular() {
 }
 
 function limpar() {
-    const deslocamento = document.getElementById('deslocamento').value='';
-    const tempo = document.getElementById('tempo').value='';
-    const resultado = document.getElementById('resb').value='';
-    const resultadob = document.getElementById('res').innerText ='';
+    const deslocamento = document.getElementById('deslocamento').value = '';
+    const tempo = document.getElementById('tempo').value = '';
+    const resultado = document.getElementById('resb').value = '';
+    const resultadob = document.getElementById('res').innerText = '';
+}
+
+function irparahome() {
+    location.href = "index.html";
+}
+
+function irparasobre() {
+    location.href = "sobre.html";
 }
