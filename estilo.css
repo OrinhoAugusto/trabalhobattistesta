@@ -1,13 +1,17 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
 h1 {
     background-color: rgba(255, 166, 0, 0.418);
-    border-radius: 5px;
-    text-align: center;
     padding: 5px;
     color: rgb(255, 166, 0);
+    margin-bottom: 0;
 }
 
 h3 {
-    background-color:  rgba(255, 166, 0, 0.418);
+    background-color: rgba(255, 166, 0, 0.418);
     border-radius: 5px;
     padding: 5px;
     color: rgb(255, 166, 0);
@@ -54,6 +58,7 @@ h3 {
     margin-bottom: 10px;
     border: 2px solid rgb(255, 179, 37);
     border-radius: 5px;
+    padding: 2px 2px;
 }
 
 .botoes {
@@ -67,8 +72,9 @@ button {
     margin: 20px 20px;
     border: 2px solid rgb(255, 179, 37);
     border-radius: 3px;
-    background-color:  rgba(255, 166, 0, 0.418);
+    background-color: rgba(255, 166, 0, 0.418);
     color: rgb(192, 125, 0);
+    cursor: pointer;
 }
 
 footer {
@@ -79,8 +85,52 @@ footer {
 }
 
 #resb {
-    background-color:  rgba(255, 166, 0, 0.418);
+    background-color: rgba(255, 166, 0, 0.418);
     height: 40px;
     border-radius: 10px;
     text-align: center;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    margin-top: 0;
+}
+
+a {
+    margin: 5px 20px;
+    cursor: pointer;
+    font-size: medium;
+    width: 50px;
+    height: 20px;
+}
+
+a:hover {
+    color: rgb(95, 95, 95);
+    font-size: large;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.paginasobre {
+    border: 2px solid rgb(255, 179, 37);
+    border-radius: 25px;
+    width: 500px;
+    height: 150px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lis {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
 }
