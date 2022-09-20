@@ -22,6 +22,7 @@ function calcular() {
 }
 
 function limpar() {
+    arrei = [];
     const deslocamento = document.getElementById('deslocamento').value = '';
     const tempo = document.getElementById('tempo').value = '';
     const resultado = document.getElementById('resb').value = '';
